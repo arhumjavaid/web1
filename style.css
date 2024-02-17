@@ -152,4 +152,23 @@ form li button:hover {
     .section1{
         min-height: auto;
     }
+    
+}
+
+@media screen and (max-width:1090px){
+    .content h1{
+        font-size: 5.3rem;
+    }
+}
+
+@media screen and (max-width:950px){
+    .content h1{
+        font-size: 4.3rem;
+    }
+}
+
+@media screen and (max-width:780px){
+    .content h1{
+        font-size: 1.8rem;
+    }
 }
