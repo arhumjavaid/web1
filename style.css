@@ -136,6 +136,20 @@ form li button:hover {
 @media screen and (max-width:1250px){
     .section2 .card{
 
-        padding: 1  rem;
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width:13050px){
+    .section1 .content{
+        width: 65%;
+    }
+    
+}
+
+@media screen and (max-width:1150px){
+    .section1{
+        min-height: auto;
     }
 }
