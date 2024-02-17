@@ -91,3 +91,51 @@ form li button:hover {
     color: gold;
     font-weight: bolder;
 }
+
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gold;
+    flex-wrap: wrap;
+}
+
+
+.section2 .card{
+    border: none;
+    background-color: transparent;
+    padding: 4.3rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body p{
+    text-align: center;
+}
+
+
+.card-body a{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.card-body a:hover{
+    background-color: black;
+    color: gold;
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width:1250px){
+    .section2 .card{
+
+        padding: 1  rem;
+    }
+}
